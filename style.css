@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  background:purple;
+  color:white;
+  text-align: center;
+}
+.accepted-box,.pending-box,.rejected-box{
+  padding:30px;
+  background:gray;
+  color:white;
+  margin:20px;
+}
+.item{
+  display: flex;
+  background:brown;
+  margin:10px;
+  padding:10px; 
+}
+.item p{
+  margin:5px 10px;
+  font-size:20px;
+}
+.btn-delete{
+  margin:5px 0;
+  font-size:20px;
+}

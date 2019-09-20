@@ -1,0 +1,16 @@
+Generare in un nuovo progetto la grafica necessaria per stampare i pagamenti presenti nel DB. I pagamenti dovranno essere in 3 zone (grafiche) diverse in base allo status, es:
+
+REJECTED:
+- pag 1
+- pag 2
+
+PENDING:
+- pag 3
+- pag 4
+
+ACCEPTED:
+- pag 5
+- pag 6
+
+Dovra' inoltre essere data all'utente la possibilita' di eliminare un elemento attraverso la pagina. Il software dovra' provvedere a eliminare il record dalla tabella e 
+aggiornare la grafica realtiva senza ricaricare la pagina (come visto a lezione).
